@@ -1,1 +1,2 @@
-Para poder ponerte los mods tienes que importártelos a curseforge o a modrinth app
+Para poder ponerte los mods tienes que importártelos a curseforge o a modrinth appPara poder ponerte los mods tienes que importártelos a 
+curseforge y si quieres modrinth app primero a curseforge depues desde modrinth importas el perfil con la ruta de /curseforge donde la ruta de las instancias
