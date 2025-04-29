@@ -1,0 +1,954 @@
+[29abr2025 02:25:18.341] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.5.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853, nogui]
+[29abr2025 02:25:18.345] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.6 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[29abr2025 02:25:19.274] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/ServersMinecraft/TUMADRETTGRASS/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2364!/ Service=ModLauncher Env=SERVER
+[29abr2025 02:25:19.741] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\ServersMinecraft\TUMADRETTGRASS\libraries\net\minecraftforge\fmlcore\1.19.2-43.5.0\fmlcore-1.19.2-43.5.0.jar is missing mods.toml file
+[29abr2025 02:25:19.745] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\ServersMinecraft\TUMADRETTGRASS\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.5.0\javafmllanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[29abr2025 02:25:19.747] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\ServersMinecraft\TUMADRETTGRASS\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.5.0\lowcodelanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[29abr2025 02:25:19.749] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\ServersMinecraft\TUMADRETTGRASS\libraries\net\minecraftforge\mclanguage\1.19.2-43.5.0\mclanguage-1.19.2-43.5.0.jar is missing mods.toml file
+[29abr2025 02:25:20.053] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[29abr2025 02:25:20.054] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 17 dependencies adding them to mods collection
+[29abr2025 02:25:22.139] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[29abr2025 02:25:22.248] [main/ERROR] [mixin/]: Mixin config mixins.baritone.json does not specify "minVersion" property
+[29abr2025 02:25:22.351] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [baritone.launch.BaritoneMixinConnector]
+[29abr2025 02:25:22.352] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[29abr2025 02:25:22.365] [main/WARN] [mixin/]: Reference map 'naturalist-forge-forge-refmap.json' for naturalist.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.367] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.420] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.18.1+mc1.19.2: 87 options available, 1 override(s) found
+[29abr2025 02:25:22.421] [main/WARN] [ModernFix/]: Option 'mixin.bugfix.buffer_builder_leak' overriden (by mods [witherstormmod]) to 'false'
+[29abr2025 02:25:22.421] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[29abr2025 02:25:22.430] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[29abr2025 02:25:22.485] [main/WARN] [mixin/]: Reference map 'dummmmmmy-forge-refmap.json' for dummmmmmy.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.534] [main/WARN] [mixin/]: Reference map 'create_mechanical_spawner.refmap.json' for create_mechanical_spawner.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.539] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.540] [main/WARN] [mixin/]: Reference map 'yungsextras.refmap.json' for yungsextras_forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.562] [main/WARN] [mixin/]: Reference map 'DurabilityFix.refmap.json' for mahoutsukaipatches.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.572] [main/WARN] [mixin/]: Reference map '${refmap_target}refmap.json' for corgilib.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:22.576] [main/WARN] [mixin/]: Reference map 'mes-forge-refmap.json' for mes-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[29abr2025 02:25:23.121] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[29abr2025 02:25:23.121] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.TomatoVineBlock was not found supplementaries.mixins.json:CompatFarmersDelightMixin
+[29abr2025 02:25:23.367] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/world/WorldSlice (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.world.WorldSlice)
+[29abr2025 02:25:23.368] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.world.WorldSlice was not found copycats-common.mixins.json:compat.rubidium.WorldSliceAccessor
+[29abr2025 02:25:23.527] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER
+[29abr2025 02:25:23.527] [main/WARN] [mixin/]: Error loading class: com/minecolonies/core/compatibility/jei/GenericRecipeCategory (java.lang.RuntimeException: Attempted to load class com/minecolonies/core/compatibility/jei/GenericRecipeCategory for invalid dist DEDICATED_SERVER)
+[29abr2025 02:25:23.528] [main/WARN] [mixin/]: @Mixin target com.minecolonies.core.compatibility.jei.GenericRecipeCategory was not found minecolonies_compatibility.mixin.common.json:minecolonies.GenericRecipeCategoryMixin
+[29abr2025 02:25:23.531] [main/WARN] [mixin/]: Error loading class: com/legacy/blue_skies/blocks/natural/BrewberryBushBlock (java.lang.ClassNotFoundException: com.legacy.blue_skies.blocks.natural.BrewberryBushBlock)
+[29abr2025 02:25:23.531] [main/WARN] [mixin/]: @Mixin target com.legacy.blue_skies.blocks.natural.BrewberryBushBlock was not found minecolonies_compatibility.mixin.common.json:blue_skies.BrewberryBushBlockAccessor
+[29abr2025 02:25:23.532] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/butcherblock/ButcherBlockBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity)
+[29abr2025 02:25:23.532] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.butcherblock.ButcherBlockBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.ButcherBlockBlockEntityAccessor
+[29abr2025 02:25:23.533] [main/WARN] [mixin/]: Error loading class: com/lance5057/butchercraft/workstations/hook/MeatHookBlockEntity (java.lang.ClassNotFoundException: com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity)
+[29abr2025 02:25:23.533] [main/WARN] [mixin/]: @Mixin target com.lance5057.butchercraft.workstations.hook.MeatHookBlockEntity was not found minecolonies_compatibility.mixin.common.json:butchercraft.MeatHookBlockEntityAccessor
+[29abr2025 02:25:23.534] [main/WARN] [mixin/]: Error loading class: com/lothrazar/cyclic/block/apple/AppleCropBlock (java.lang.ClassNotFoundException: com.lothrazar.cyclic.block.apple.AppleCropBlock)
+[29abr2025 02:25:23.534] [main/WARN] [mixin/]: @Mixin target com.lothrazar.cyclic.block.apple.AppleCropBlock was not found minecolonies_compatibility.mixin.common.json:cyclic.AppleCropBlockAccessor
+[29abr2025 02:25:23.536] [main/WARN] [mixin/]: Error loading class: com/mrbysco/oreberriesreplanted/block/OreBerryBushBlock (java.lang.ClassNotFoundException: com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock)
+[29abr2025 02:25:23.536] [main/WARN] [mixin/]: @Mixin target com.mrbysco.oreberriesreplanted.block.OreBerryBushBlock was not found minecolonies_compatibility.mixin.common.json:oreberries.OreBerryBushBlockAccessor
+[29abr2025 02:25:23.536] [main/WARN] [mixin/]: Error loading class: reliquary/items/HandgunItem (java.lang.ClassNotFoundException: reliquary.items.HandgunItem)
+[29abr2025 02:25:23.536] [main/WARN] [mixin/]: @Mixin target reliquary.items.HandgunItem was not found minecolonies_compatibility.mixin.common.json:reliquary.HandgunItemAccessor
+[29abr2025 02:25:23.537] [main/WARN] [mixin/]: Error loading class: reliquary/entities/shot/NeutralShotEntity (java.lang.ClassNotFoundException: reliquary.entities.shot.NeutralShotEntity)
+[29abr2025 02:25:23.537] [main/WARN] [mixin/]: @Mixin target reliquary.entities.shot.NeutralShotEntity was not found minecolonies_compatibility.mixin.common.json:reliquary.NeutralShotEntityMixin
+[29abr2025 02:25:23.538] [main/WARN] [mixin/]: Error loading class: com/lothrazar/storagenetwork/block/main/NetworkModule (java.lang.ClassNotFoundException: com.lothrazar.storagenetwork.block.main.NetworkModule)
+[29abr2025 02:25:23.538] [main/WARN] [mixin/]: @Mixin target com.lothrazar.storagenetwork.block.main.NetworkModule was not found minecolonies_compatibility.mixin.common.json:storagenetwork.NetworkModuleAccessor
+[29abr2025 02:25:23.539] [main/WARN] [mixin/]: Error loading class: com/lothrazar/storagenetwork/util/UtilConnections (java.lang.ClassNotFoundException: com.lothrazar.storagenetwork.util.UtilConnections)
+[29abr2025 02:25:23.539] [main/WARN] [mixin/]: @Mixin target com.lothrazar.storagenetwork.util.UtilConnections was not found minecolonies_compatibility.mixin.common.json:storagenetwork.UtilConnectionsMixin
+[29abr2025 02:25:23.540] [main/WARN] [mixin/]: Error loading class: cofh/lib/block/CropBlockCoFH (java.lang.ClassNotFoundException: cofh.lib.block.CropBlockCoFH)
+[29abr2025 02:25:23.540] [main/WARN] [mixin/]: @Mixin target cofh.lib.block.CropBlockCoFH was not found minecolonies_compatibility.mixin.common.json:thermal.CropBlockCoFHAccessor
+[29abr2025 02:25:23.753] [main/WARN] [mixin/]: Error loading class: org/jetbrains/annotations/ApiStatus$Internal (java.lang.ClassNotFoundException: org.jetbrains.annotations.ApiStatus$Internal)
+[29abr2025 02:25:23.768] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[29abr2025 02:25:24.730] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.977 s after launch)
+[29abr2025 02:25:24.796] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29abr2025 02:25:24.796] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[29abr2025 02:25:25.844] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1112 milliseconds
+[29abr2025 02:25:27.296] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping integrated_api.mixins.json:structures.StructurePoolMixin->@ModifyConstant::integrated_api_increaseWeightLimitDev(I)I with priority 1000, already redirected by yungsapi_forge.mixins.json:IncreaseStructureWeightLimitMixinForge->@ModifyConstant::yungsapi_increaseWeightLimit(I)I with priority 1000
+[29abr2025 02:25:27.382] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[29abr2025 02:25:28.004] [main/WARN] [mixin/]: Error loading class: vazkii/quark/content/tools/item/PathfindersQuillItem (java.lang.ClassNotFoundException: vazkii.quark.content.tools.item.PathfindersQuillItem)
+[29abr2025 02:25:28.071] [main/ERROR] [net.minecraft.Util/]: Registry 'integrated_api:json_conditions' was empty after loading
+[29abr2025 02:25:28.227] [modloading-worker-0/INFO] [paucal/]: Hello PAUCAL! This is FORGE!
+[29abr2025 02:25:28.245] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[29abr2025 02:25:28.250] [modloading-worker-0/INFO] [com.moxg.tenex.TensuraExpanded/]: Tensura Expanded has been loaded!
+[29abr2025 02:25:28.278] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[29abr2025 02:25:28.282] [modloading-worker-0/INFO] [MaxHealthFix/]: Loaded maxhealthfix for Forge.
+[29abr2025 02:25:28.283] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[29abr2025 02:25:28.284] [modloading-worker-0/INFO] [plus.dragons.createdragonlib.DragonLib/]: Create: Dragon Lib 1.4.4 has initialized, ready to support your Create add-ons!
+[29abr2025 02:25:28.292] [modloading-worker-0/INFO] [create_new_age/]: Hello 1.20.1 Create!
+[29abr2025 02:25:28.295] [modloading-worker-0/INFO] [LowDragLib/]: LowDragLib is initializing on platform: Forge
+[29abr2025 02:25:28.408] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[29abr2025 02:25:28.409] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[29abr2025 02:25:28.671] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.64.
+[29abr2025 02:25:28.686] [modloading-worker-0/INFO] [me.wesley1808.servercore.common.ServerCore/]: [ServerCore] Loaded V1.3.6+1.19.2!
+[29abr2025 02:25:28.745] [modloading-worker-0/INFO] [Photon/]: Photon is initializing on platform: Forge
+[29abr2025 02:25:28.767] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[29abr2025 02:25:28.768] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id identity:favorite
+[29abr2025 02:25:28.770] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id identity:request
+[29abr2025 02:25:28.770] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id identity:request
+[29abr2025 02:25:28.771] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id identity:use_ability
+[29abr2025 02:25:28.782] [modloading-worker-0/INFO] [trangel/]: TestRacesConfig() called too
+[29abr2025 02:25:28.840] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[29abr2025 02:25:28.852] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[29abr2025 02:25:28.860] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[29abr2025 02:25:28.862] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[29abr2025 02:25:28.870] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[29abr2025 02:25:28.878] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[29abr2025 02:25:28.900] [modloading-worker-0/INFO] [trangel/]: Tensura:Angels has been loaded!
+[29abr2025 02:25:28.929] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.5.0, for MC 1.19.2 with MCP 20220805.130853
+[29abr2025 02:25:28.929] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.5.0 Initialized
+[29abr2025 02:25:28.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_map_data
+[29abr2025 02:25:28.955] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:request_chunk_change
+[29abr2025 02:25:28.960] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:teleport_from_map
+[29abr2025 02:25:28.965] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:sync_tx
+[29abr2025 02:25:28.973] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:update_force_load_expiry
+[29abr2025 02:25:28.974] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbchunks:server_config_request
+[29abr2025 02:25:29.007] [modloading-worker-0/INFO] [FTB Chunks/]: Mod [FTB XMod Compat] not detected. Install it if you want FTB Chunks integration with KubeJS, Game Stages, Waystones, FTB Ranks/Luckperms and/or Common Protection API
+[29abr2025 02:25:29.032] [modloading-worker-0/INFO] [Dynmap/]: [Dynmap] Mod Support API available
+[29abr2025 02:25:29.175] [modloading-worker-0/INFO] [hexal/]: Hello Forge World!
+[29abr2025 02:25:29.180] [modloading-worker-0/INFO] [libIPN/]: [libIPN] libIPN - init in Kotlin
+[29abr2025 02:25:29.180] [modloading-worker-0/INFO] [Inventory Profiles Next/]: [Inventory Profiles Next] Inventory Profiles Next - init in Kotlin
+[29abr2025 02:25:29.197] [modloading-worker-0/INFO] [tempestadditions/]: Tempest Additions has been loaded!
+[29abr2025 02:25:29.201] [modloading-worker-0/INFO] [hexal/]: registering hexal configured features
+[29abr2025 02:25:29.224] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[29abr2025 02:25:29.261] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 0.5.1h on platform: Forge
+[29abr2025 02:25:29.267] [modloading-worker-0/INFO] [creategoggles/]: CreateGoggles init
+[29abr2025 02:25:29.268] [modloading-worker-0/INFO] [creategoggles/]: cgblocks
+[29abr2025 02:25:29.270] [modloading-worker-0/INFO] [creategoggles/]: cgitems
+[29abr2025 02:25:29.291] [modloading-worker-0/INFO] [creategoggles/]: cgblockentities
+[29abr2025 02:25:29.309] [modloading-worker-0/INFO] [creategoggles/]: CGItemModifiers register false
+[29abr2025 02:25:29.315] [modloading-worker-0/INFO] [creategoggles/]: CreateGogglesForge init
+[29abr2025 02:25:29.345] [modloading-worker-0/INFO] [BTRUltima/]: Bonni TR:Ultima has been loaded!
+[29abr2025 02:25:29.416] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Steampunk
+[29abr2025 02:25:29.417] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Byzantine
+[29abr2025 02:25:29.417] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Frontier
+[29abr2025 02:25:29.417] [Structurize IO Worker #0/WARN] [structurize/]: Missing Mod: byg for Pack: Corrupted
+[29abr2025 02:25:29.417] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Antique
+[29abr2025 02:25:29.418] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Functional Fantasy
+[29abr2025 02:25:29.418] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Crimson Keep
+[29abr2025 02:25:29.418] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Underwater Base
+[29abr2025 02:25:29.418] [Structurize IO Worker #0/WARN] [structurize/]: Missing Mod: quark for Pack: FairyTale
+[29abr2025 02:25:29.418] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: High Magic
+[29abr2025 02:25:29.419] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Warped Netherlands
+[29abr2025 02:25:29.419] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Stalactite Caves
+[29abr2025 02:25:29.419] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Space Wars
+[29abr2025 02:25:29.420] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Shire
+[29abr2025 02:25:29.420] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Desert Oasis
+[29abr2025 02:25:29.420] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Pagoda
+[29abr2025 02:25:29.421] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Minecolonies Original
+[29abr2025 02:25:29.421] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Nordic Spruce
+[29abr2025 02:25:29.421] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Spruce
+[29abr2025 02:25:29.422] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Oak
+[29abr2025 02:25:29.422] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Dark Oak
+[29abr2025 02:25:29.422] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Medieval Birch
+[29abr2025 02:25:29.422] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Lost Mesa City
+[29abr2025 02:25:29.423] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Jungle Treehouse
+[29abr2025 02:25:29.423] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Incan
+[29abr2025 02:25:29.423] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Fortress
+[29abr2025 02:25:29.424] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Dark Oak Treehouse
+[29abr2025 02:25:29.424] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Colonial
+[29abr2025 02:25:29.424] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Cavern
+[29abr2025 02:25:29.425] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Caledonia
+[29abr2025 02:25:29.425] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Birch
+[29abr2025 02:25:29.425] [Structurize IO Worker #0/INFO] [structurize/]: Registered structure pack: Urban Savanna
+[29abr2025 02:25:29.426] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading packs from main folder path: .
+[29abr2025 02:25:29.426] [Structurize IO Worker #0/WARN] [structurize/]: Failed loading client packs from main folder path: .
+[29abr2025 02:25:29.426] [Structurize IO Worker #0/WARN] [structurize/]: Finished discovering Server Structure packs
+[29abr2025 02:25:29.460] [modloading-worker-0/WARN] [de.keksuccino.justzoom.JustZoom/]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[29abr2025 02:25:29.520] [modloading-worker-0/INFO] [trmysticism/]: Mysticism has been loaded!
+[29abr2025 02:25:29.543] [modloading-worker-0/INFO] [ModernFix/]: Bypassed Mojang DFU
+[29abr2025 02:25:29.545] [modloading-worker-0/ERROR] [structurize/]: ----------------------------------------------------------------- 
+ Invalid DataFixer detected, schematics might not paste correctly! 
+The following DataFixer was added: class org.embeddedt.modernfix.dfu.LazyDataFixer
+-----------------------------------------------------------------
+[29abr2025 02:25:29.588] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineBeast, previously written by com.dranyas.trangel.mixins.DivineBeastIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.594] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineOni, previously written by com.dranyas.trangel.mixins.DivineOniIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.597] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineFighter, previously written by com.dranyas.trangel.mixins.DivineFighterIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.608] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineBoar, previously written by com.dranyas.trangel.mixins.DivineBoarIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.612] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineDragon, previously written by com.dranyas.trangel.mixins.DivineDragonIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.619] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineFish, previously written by com.dranyas.trangel.mixins.DivineFishIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.624] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineElf, previously written by com.dranyas.trangel.mixins.DivineElfIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.628] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineHuman, previously written by com.dranyas.trangel.mixins.DivineHumanIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.633] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineDwarf, previously written by com.dranyas.trangel.mixins.DivineDwarfIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.646] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineVampire, previously written by com.dranyas.trangel.mixins.DivineVampireIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.651] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDivineSkeleton, previously written by com.dranyas.trangel.mixins.DivineSkeletonIntrinsicMixin. Skipping method.
+[29abr2025 02:25:29.656] [modloading-worker-0/WARN] [mixin/]: Method overwrite conflict for getIntrinsicSkills in trmysticism.mixins.json:race.spiritualResist.MixinDevilLord, previously written by com.dranyas.trangel.mixins.DevilLordIntrinsicMixin. Skipping method.
+[29abr2025 02:25:30.143] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.FileUtils/CORE]: Failed to create tensura-reincarnated directory - there is a file in the way
+[29abr2025 02:25:30.150] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.FileUtils/CORE]: Failed to create tensura-reincarnated directory - there is a file in the way
+[29abr2025 02:25:30.523] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:30.540] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:30.980] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.479] [main/INFO] [moonlight/]: Initialized block sets in 8ms
+[29abr2025 02:25:31.488] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.495] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.510] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.531] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.552] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.556] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.559] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.578] [main/INFO] [hexal/]: registering hexal features
+[29abr2025 02:25:31.578] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.592] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:31.593] [main/ERROR] [net.minecraft.Util/]: Adding duplicate key 'ResourceKey[minecraft:worldgen/structure_processor / tensura:no_waterlog_processor]' to registry
+[29abr2025 02:25:31.594] [main/ERROR] [net.minecraft.Util/]: Adding duplicate value 'com.github.manasmods.tensura.registry.structure.TensuraProcessors$$Lambda$17014/0x0000000802bf7390@2b562352' to registry
+[29abr2025 02:25:31.618] [main/WARN] [mixin/]: Method overwrite conflict for hasUriel in trmysticism.mixins.json:MixinDisintegration, previously written by com.dranyas.trangel.mixins.DisintegrationMixin. Skipping method.
+[29abr2025 02:25:31.910] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.381] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.386] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.390] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.402] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.405] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.412] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.436] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.440] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.444] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.451] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.456] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.461] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.467] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.599] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.739] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.743] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.751] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.763] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.793] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.834] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.838] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.841] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.845] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.848] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.851] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.863] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.896] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.924] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.945] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.950] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.956] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.959] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.964] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.968] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.970] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.974] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.980] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.984] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.989] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.992] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.996] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:32.999] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.002] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.004] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.007] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.011] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.017] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.021] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.027] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.031] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.035] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.041] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.045] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.053] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.056] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.059] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.063] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.066] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.069] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.072] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.075] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.079] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.082] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.085] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.089] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.092] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.096] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.099] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.102] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.105] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.111] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.121] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.131] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.136] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.146] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.158] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.164] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.168] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.172] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.177] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.202] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.290] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.294] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.297] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.300] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.302] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.308] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.312] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.316] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.323] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.353] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.357] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.364] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.369] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.373] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.377] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.382] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.387] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.391] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.394] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.397] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.400] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.420] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.497] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.500] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.503] [main/INFO] [trangel/]: TensuraAngelRaces.register() called
+[29abr2025 02:25:33.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameablePenguinEntity
+[29abr2025 02:25:33.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameablePenguinEntity
+[29abr2025 02:25:33.568] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameablePenguinEntity
+[29abr2025 02:25:33.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameableChikoteEntity
+[29abr2025 02:25:33.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameableChikoteEntity
+[29abr2025 02:25:33.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.core.FlyingTameableGAnimal
+[29abr2025 02:25:33.569] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.ScarecrowAllayEntity
+[29abr2025 02:25:33.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.ScarecrowAllayEntity
+[29abr2025 02:25:33.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameableBeetleEntity
+[29abr2025 02:25:33.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameableBeetleEntity
+[29abr2025 02:25:33.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.Wolf from class com.modderg.tameablebeasts.entities.QuetzalcoatlusEntity
+[29abr2025 02:25:33.570] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.QuetzalcoatlusEntity
+[29abr2025 02:25:33.571] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.QuetzalcoatlusEntity
+[29abr2025 02:25:33.571] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.QuetzalcoatlusEntity
+[29abr2025 02:25:33.571] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.GiantTameableGrasshopperEntity
+[29abr2025 02:25:33.571] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.GiantTameableGrasshopperEntity
+[29abr2025 02:25:33.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.TameableGroundBeetleEntity
+[29abr2025 02:25:33.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.animal.Wolf from class com.modderg.tameablebeasts.entities.TameableGroundBeetleEntity
+[29abr2025 02:25:33.572] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.modderg.tameablebeasts.entities.TameableRacoonEntity from class com.modderg.tameablebeasts.entities.GiantTameableRolyPolyEntity
+[29abr2025 02:25:33.927] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file D:\ServersMinecraft\TUMADRETTGRASS\config\unusualprehistory-common.toml is not correct. Correcting
+[29abr2025 02:25:33.928] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_sound_volume was corrected from 3.0 to its default, 3.0. 
+[29abr2025 02:25:33.928] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key brachi_teen_sound_volume was corrected from 1.5 to its default, 1.5. 
+[29abr2025 02:25:33.929] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key rex_sound_volume was corrected from 0.5 to its default, 0.5. 
+[29abr2025 02:25:34.014] [modloading-worker-0/INFO] [com.moxg.tenex.TensuraExpanded/]: Common Setup
+[29abr2025 02:25:34.014] [modloading-worker-0/INFO] [net.uknownymous.overhauledstructures.OverhauledStructures/]: Epic!
+[29abr2025 02:25:34.014] [modloading-worker-0/INFO] [com.moxg.tenex.TensuraExpanded/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.032] [modloading-worker-0/INFO] [com.frikinjay.morefrogs.MoreFrogsMod/]: MORE FROGS COMMON SETUP
+[29abr2025 02:25:34.032] [modloading-worker-0/INFO] [com.frikinjay.morefrogs.MoreFrogsMod/]: DIRT BLOCK >> minecraft:dirt
+[29abr2025 02:25:34.042] [modloading-worker-0/INFO] [incontrol/]: Reading rules from spawn.json
+[29abr2025 02:25:34.046] [modloading-worker-0/INFO] [incontrol/]: Reading rules from summonaid.json
+[29abr2025 02:25:34.049] [modloading-worker-0/INFO] [incontrol/]: Reading rules from loot.json
+[29abr2025 02:25:34.052] [modloading-worker-0/INFO] [trangel/]: Common Setup
+[29abr2025 02:25:34.052] [modloading-worker-0/INFO] [incontrol/]: Reading rules from experience.json
+[29abr2025 02:25:34.052] [modloading-worker-0/INFO] [trangel/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.054] [modloading-worker-0/INFO] [incontrol/]: Reading rules from phases.json
+[29abr2025 02:25:34.056] [modloading-worker-0/INFO] [incontrol/]: Reading rules from special.json
+[29abr2025 02:25:34.057] [modloading-worker-0/INFO] [incontrol/]: Reading rules from spawner.json
+[29abr2025 02:25:34.062] [modloading-worker-0/INFO] [com.lostkin.mahoutsukaipatches.MahouTsukaiPatches/]: HELLO FROM COMMON SETUP
+[29abr2025 02:25:34.062] [modloading-worker-0/INFO] [com.lostkin.mahoutsukaipatches.MahouTsukaiPatches/]: DIRT BLOCK >> minecraft:dirt
+[29abr2025 02:25:34.068] [modloading-worker-0/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:25:34.071] [modloading-worker-0/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:25:34.073] [modloading-worker-0/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:25:34.074] [modloading-worker-0/INFO] [com.github.yeetmanlord.somanyenchants.SoManyEnchants/]: PREINIT IS FUNCTIONING
+[29abr2025 02:25:34.078] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[29abr2025 02:25:34.078] [modloading-worker-0/INFO] [BTRUltima/]: Common Setup
+[29abr2025 02:25:34.079] [modloading-worker-0/INFO] [tempestadditions/]: Common Setup
+[29abr2025 02:25:34.079] [modloading-worker-0/INFO] [tempestadditions/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.079] [modloading-worker-0/INFO] [trmysticism/]: Common Setup
+[29abr2025 02:25:34.080] [modloading-worker-0/INFO] [creategoggles/]: Create Goggles Setup
+[29abr2025 02:25:34.080] [modloading-worker-0/INFO] [trmysticism/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.083] [modloading-worker-0/INFO] [BTRUltima/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.084] [modloading-worker-0/INFO] [traddon/]: Common Setup
+[29abr2025 02:25:34.084] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[29abr2025 02:25:34.084] [modloading-worker-0/INFO] [traddon/]: Common setup works. TOML file already edited.
+[29abr2025 02:25:34.127] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Starting version check at https://api.modrinth.com/updates/create-jetpack/forge_updates.json
+[29abr2025 02:25:34.144] [modloading-worker-0/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Common setup complete.
+[29abr2025 02:25:34.381] [modloading-worker-0/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Got request to register class com.sk89q.worldedit.forge.ForgePlatform with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5821a847]
+[29abr2025 02:25:34.384] [modloading-worker-0/INFO] [com.sk89q.worldedit.forge.ForgeWorldEdit/]: WorldEdit for Forge (version 7.2.12+6240-87f4ae1) is loaded
+[29abr2025 02:25:34.404] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_jetpack] Found status: UP_TO_DATE Current: 3.4.2 Target: null
+[29abr2025 02:25:34.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.19.2
+[29abr2025 02:25:34.440] [main/INFO] [supplementaries/]: Finished mod setup in: [0, 25, 1, 0, 0, 0, 0, 0, 0] ms
+[29abr2025 02:25:34.443] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[29abr2025 02:25:34.449] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[29abr2025 02:25:34.451] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[29abr2025 02:25:34.453] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[29abr2025 02:25:34.546] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[29abr2025 02:25:34.547] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[29abr2025 02:25:34.547] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[29abr2025 02:25:34.547] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[29abr2025 02:25:34.548] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[29abr2025 02:25:34.548] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[29abr2025 02:25:34.548] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[29abr2025 02:25:34.548] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[29abr2025 02:25:34.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 10.0+7 Target: 10.0+7
+[29abr2025 02:25:34.578] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Starting version check at https://updates.blamejared.com/get?n=maxhealthfix&gv=1.19.2
+[29abr2025 02:25:34.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [maxhealthfix] Found status: BETA Current: 8.0.2 Target: 8.0.2
+[29abr2025 02:25:34.633] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_timed_witherstorm] Starting version check at https://api.modrinth.com/updates/8sINlmFP/forge_updates.json
+[29abr2025 02:25:34.642] [main/INFO] [moonlight/]: Initialized color sets in 30ms
+[29abr2025 02:25:34.665] [main/INFO] [moonlight/]: Initialized color sets in 23ms
+[29abr2025 02:25:34.675] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[29abr2025 02:25:34.675] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[29abr2025 02:25:34.675] [main/INFO] [terrablender/]: Registered region tensura:overworld to index 1 for type OVERWORLD
+[29abr2025 02:25:34.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_timed_witherstorm] Found status: OUTDATED Current: 1.0.0 Target: 1.0.0+mod
+[29abr2025 02:25:34.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[29abr2025 02:25:34.769] [main/WARN] [nonamecrackers2.witherstormmod.WitherStormMod/]: Found outdated Flywheel 0.6.11-22. Flywheel compatibility will NOT be activated!
+[29abr2025 02:25:34.796] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[29abr2025 02:25:34.796] [modloading-worker-0/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Dedicated server setup complete.
+[29abr2025 02:25:34.796] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[29abr2025 02:25:34.822] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[29abr2025 02:25:34.822] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[29abr2025 02:25:34.958] [modloading-worker-0/INFO] [hexcasting/]: Loaded 237 regular patterns, 18 per-world patterns, and 2 special handlers.
+[29abr2025 02:25:34.968] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[29abr2025 02:25:34.968] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]:   Removed 'minecraft:slime' from the block list
+[29abr2025 02:25:34.968] [modloading-worker-0/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[29abr2025 02:25:34.972] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[29abr2025 02:25:34.976] [modloading-worker-0/WARN] [minecolonies/]: Register mappings
+[29abr2025 02:25:34.977] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[29abr2025 02:25:34.977] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.lootr.LootrPlugin
+[29abr2025 02:25:34.979] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.general.GeneralPlugin
+[29abr2025 02:25:34.980] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.create.CreatePlugin
+[29abr2025 02:25:34.982] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.ForgeJadeWaystonesPlugin
+[29abr2025 02:25:34.982] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[29abr2025 02:25:34.988] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[29abr2025 02:25:34.992] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[29abr2025 02:25:34.993] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.oierbravo.create_mechanical_spawner.compat.jade.MechanicalSpawnerPlugin
+[29abr2025 02:25:35.186] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: BETA Current: 4.2.1518 Target: null
+[29abr2025 02:25:35.187] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
+[29abr2025 02:25:35.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.19.2-2.4.20 Target: null
+[29abr2025 02:25:35.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[29abr2025 02:25:35.221] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.3.7 Target: null
+[29abr2025 02:25:35.222] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Starting version check at https://raw.githubusercontent.com/copycats-plus/copycats/multiloader/update.json
+[29abr2025 02:25:35.230] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[29abr2025 02:25:35.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [copycats] Found status: AHEAD Current: 2.2.2+mc.1.19.2-forge Target: null
+[29abr2025 02:25:35.366] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[29abr2025 02:25:35.369] [PAUCAL Contributors Loading Thread/INFO] [paucal/]: Successfully loaded 41 contributors
+[29abr2025 02:25:35.589] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/D:/ServersMinecraft/TUMADRETTGRASS/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23386!/assets/.mcassetsroot' uses unexpected schema
+[29abr2025 02:25:35.589] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/D:/ServersMinecraft/TUMADRETTGRASS/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23386!/data/.mcassetsroot' uses unexpected schema
+[29abr2025 02:25:36.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.8.0 Target: 1.8.0
+[29abr2025 02:25:36.427] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[29abr2025 02:25:36.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.5.0 Target: null
+[29abr2025 02:25:36.615] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[29abr2025 02:25:36.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: UP_TO_DATE Current: 1.19.2-2.3.7 Target: null
+[29abr2025 02:25:36.632] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [manascore] Starting version check at https://api.modrinth.com/updates/wRRSWpd1/forge_updates.json
+[29abr2025 02:25:36.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [manascore] Found status: AHEAD Current: 2.1.4.6 Target: null
+[29abr2025 02:25:36.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[29abr2025 02:25:36.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.11-22 Target: null
+[29abr2025 02:25:36.881] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Starting version check at https://raw.githubusercontent.com/hlysine/create_power_loader/main/update.json
+[29abr2025 02:25:37.021] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [create_power_loader] Found status: UP_TO_DATE Current: 1.5.0-mc1.19.2 Target: null
+[29abr2025 02:25:44.608] [main/INFO] [supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 68 ms
+[29abr2025 02:25:46.561] [main/INFO] [com.sk89q.worldedit.extension.platform.PlatformCommandManager/]: Registering commands with com.sk89q.worldedit.forge.ForgePlatform
+[29abr2025 02:25:46.703] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[29abr2025 02:25:46.800] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#aether:is_aether (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: #aether:is_aether (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.801] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [blue_skies:unorthodox_valley (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:shaded_woodlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_dunes (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:sunset_maple_forest (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:rising_creek (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_roughs (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:searing_grassland (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crescent_orchard (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:shaded_woodlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_dunes (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:sunset_maple_forest (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:rising_creek (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_roughs (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:searing_grassland (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crescent_orchard (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.802] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [the_bumblezone:crystal_canyon (from totw_modded-forge-1.19.2-1.0.5.jar), the_bumblezone:pollinated_fields (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: the_bumblezone:crystal_canyon (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	the_bumblezone:pollinated_fields (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.803] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:infernal_venus_barrens (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.803] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:lunar_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.804] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)
+[29abr2025 02:25:46.804] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [rats:ratlantis (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: rats:ratlantis (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.805] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [blue_skies:calming_skies (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:brightlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:slushlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:frostbitten_forest (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:snow_covered_pines (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:brisk_meadow (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:polar_highland (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:brightlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:slushlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:frostbitten_forest (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:snow_covered_pines (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:brisk_meadow (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:polar_highland (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.805] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:martian_canyon_creek (from totw_modded-forge-1.19.2-1.0.5.jar), ad_astra:martian_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	ad_astra:martian_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.806] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.19.2-1.0.5.jar), ad_astra:glacio_ice_peaks (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:46.806] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:mercury_deltas (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:25:47.017] [Worker-Main-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [create:void_steel_bars (from createutilities-0.3.0+1.19.2.jar)] as it is missing following references: create:void_steel_bars (from createutilities-0.3.0+1.19.2.jar)
+[29abr2025 02:25:47.035] [Worker-Main-6/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mekanism:mekasuit_helmet (from creategoggles-1.19.2-0.5.5.g-[FORGE].jar)] as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.19.2-0.5.5.g-[FORGE].jar)
+[29abr2025 02:25:47.919] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:nickel_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:47.921] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusualprehistory:cultivator/talapanas_egg_from_cultivator: com.google.gson.JsonSyntaxException: Unknown item 'unusualprehistory:talapanas_egg'
+[29abr2025 02:25:47.928] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:47.939] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[29abr2025 02:25:47.942] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_lead as it's serializer returned null
+[29abr2025 02:25:47.949] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/electrum as it's serializer returned null
+[29abr2025 02:25:47.949] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ender_hammer: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ender_hammer'
+[29abr2025 02:25:47.952] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:tin_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:47.957] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/wtbwcharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:25:47.959] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/charcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:25:47.961] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/ether_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:ether_sconce'
+[29abr2025 02:25:47.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[29abr2025 02:25:47.962] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[29abr2025 02:25:47.967] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/anglers_lure: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:47.969] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_log as it's serializer returned null
+[29abr2025 02:25:47.970] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[29abr2025 02:25:47.970] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:47.974] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/zephyrs_courage: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:47.975] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/soul_stained_steel_knife as it's serializer returned null
+[29abr2025 02:25:47.980] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:47.980] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/morecharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:25:47.982] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:lead_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:47.983] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:47.999] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+[29abr2025 02:25:48.005] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:create/crushing/crush_rare_earths_block: com.google.gson.JsonSyntaxException: Unknown item 'malum:block_of_aurum'
+[29abr2025 02:25:48.005] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_uranium as it's serializer returned null
+[29abr2025 02:25:48.006] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/iridescent_ether_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:iridescent_ether_sconce'
+[29abr2025 02:25:48.006] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:aluminum_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.007] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_osmium as it's serializer returned null
+[29abr2025 02:25:48.007] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+[29abr2025 02:25:48.009] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_nickel as it's serializer returned null
+[29abr2025 02:25:48.010] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/ifrits_embrace: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.014] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/sbmcharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:25:48.015] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/gaian_bulwark: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.015] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe creategoggles:module_goggle_unit: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:alloy_reinforced'
+[29abr2025 02:25:48.016] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:simple_diving_gear/diving_helmet as it's serializer returned null
+[29abr2025 02:25:48.019] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_nickel as it's serializer returned null
+[29abr2025 02:25:48.020] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.022] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[29abr2025 02:25:48.022] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.026] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:uranium_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:48.026] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:nickel_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.027] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:tin_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.028] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/aethers_charm: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.030] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:osmium_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.032] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_wood as it's serializer returned null
+[29abr2025 02:25:48.035] [main/WARN] [com.simibubi.create.Create/]: Your custom create:crushing recipe (malum:create/crushing/crush_rare_earths) has more item outputs (8) than supported (7).
+[29abr2025 02:25:48.035] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[29abr2025 02:25:48.036] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/blazing_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:blazing_sconce'
+[29abr2025 02:25:48.037] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/vanillatweakscharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:25:48.045] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:uranium_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.046] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:lead_from_node_blasting as it's serializer returned null
+[29abr2025 02:25:48.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/brass as it's serializer returned null
+[29abr2025 02:25:48.050] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/earthen_might: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.054] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.059] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_trapdoor as it's serializer returned null
+[29abr2025 02:25:48.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_osmium as it's serializer returned null
+[29abr2025 02:25:48.060] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[29abr2025 02:25:48.062] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/miners_rage: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.064] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_uranium as it's serializer returned null
+[29abr2025 02:25:48.065] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:osmium_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:48.065] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.066] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[29abr2025 02:25:48.068] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/zinc as it's serializer returned null
+[29abr2025 02:25:48.069] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.071] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/poseidons_grasp: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_tin as it's serializer returned null
+[29abr2025 02:25:48.074] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_tin as it's serializer returned null
+[29abr2025 02:25:48.080] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:aluminum_from_node_smelting as it's serializer returned null
+[29abr2025 02:25:48.086] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/gluttony: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:25:48.086] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[29abr2025 02:25:48.087] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_aluminum as it's serializer returned null
+[29abr2025 02:25:48.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[29abr2025 02:25:48.088] [main/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:25:48.088] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_door as it's serializer returned null
+[29abr2025 02:25:48.091] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_aluminum as it's serializer returned null
+[29abr2025 02:25:48.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_lead as it's serializer returned null
+[29abr2025 02:25:48.092] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[29abr2025 02:25:48.096] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 50 recipes
+[29abr2025 02:25:48.180] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_slave: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_slave'
+[29abr2025 02:25:48.201] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_extension: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_extension'
+[29abr2025 02:25:48.290] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_grid: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_grid'
+[29abr2025 02:25:48.303] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_inventory: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_inventory'
+[29abr2025 02:25:48.365] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wshelp:summon
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected double at position 55: ...ositioned <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected double at position 55: ...ositioned <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[29abr2025 02:25:48.405] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/impetus_creation_zinc: Missing advancement, expected to find a JsonObject
+[29abr2025 02:25:48.410] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/impetus_creation_silver: Missing advancement, expected to find a JsonObject
+[29abr2025 02:25:48.417] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/node_focusing_silver: Missing advancement, expected to find a JsonObject
+[29abr2025 02:25:48.427] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/silver_from_node_blasting: Advancement criteria cannot be empty
+[29abr2025 02:25:48.428] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/zinc_from_node_smelting: Advancement criteria cannot be empty
+[29abr2025 02:25:48.433] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/node_focusing_zinc: Missing advancement, expected to find a JsonObject
+[29abr2025 02:25:48.451] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/silver_from_node_smelting: Advancement criteria cannot be empty
+[29abr2025 02:25:48.452] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/zinc_from_node_blasting: Advancement criteria cannot be empty
+[29abr2025 02:25:48.502] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4403 advancements
+[29abr2025 02:25:48.507] [main/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[29abr2025 02:25:48.529] [main/INFO] [supplementaries/]: Loaded  8 flute songs
+[29abr2025 02:25:48.617] [main/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Data loader for unusualprehistory/analyzer loaded 14 jsons
+[29abr2025 02:25:48.618] [main/INFO] [com.peeko32213.unusualprehistory.common.data.LootFruitJsonManager/]: Data loader for unusualprehistory/trades loaded 4 jsons
+[29abr2025 02:25:48.634] [main/INFO] [com.peeko32213.unusualprehistory.common.data.EncyclopediaJsonManager/]: Data loader for unusualprehistory/encyclopedia loaded 47 jsons
+[29abr2025 02:25:48.648] [main/INFO] [com.sammy.malum.MalumMod/]: Entity with registry name: alexsmobs:spectre already has spirit data associated with it. Overwriting.
+[29abr2025 02:25:48.650] [main/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[29abr2025 02:25:48.655] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:crossbow
+[29abr2025 02:25:48.655] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:gun
+[29abr2025 02:25:48.655] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:knife
+[29abr2025 02:25:48.656] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:ranger_weapon
+[29abr2025 02:25:48.656] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:knight_weapon
+[29abr2025 02:25:48.656] [main/INFO] [steve_gall.minecolonies_tweaks.core.common.MineColoniesTweaks/]: CustomToolTypeData Added: minecolonies_compatibility:butcher_tool
+[29abr2025 02:25:48.659] [main/INFO] [minecolonies/]: Loaded 130 recipes for 14 crafters
+[29abr2025 02:25:48.659] [main/INFO] [minecolonies/]: Beginning load of research for University.
+[29abr2025 02:25:48.684] [main/INFO] [minecolonies/]: Loaded 201 recipes for 4 research branches
+[29abr2025 02:25:48.687] [main/INFO] [minecolonies/]: Loading quests from data
+[29abr2025 02:25:48.691] [main/INFO] [minecolonies/]: Finished loading quests from data
+[29abr2025 02:25:48.693] [main/WARN] [minecolonies/]: Read 1362 items with their nbt keys for compatibility.
+[29abr2025 02:25:48.694] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: kiln/materials
+[29abr2025 02:25:48.694] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for kiln/materials loaded 7 jsons
+[29abr2025 02:25:48.695] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: gear/ep
+[29abr2025 02:25:48.695] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for gear/ep loaded 233 jsons
+[29abr2025 02:25:48.695] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: entity/ep
+[29abr2025 02:25:48.696] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for entity/ep loaded 151 jsons
+[29abr2025 02:25:48.696] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: slotting_element_combination
+[29abr2025 02:25:48.697] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for slotting_element_combination loaded 56 jsons
+[29abr2025 02:25:48.697] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: otherworlder_spawning
+[29abr2025 02:25:48.698] [main/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for otherworlder_spawning loaded 8 jsons
+[29abr2025 02:25:48.704] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/venus_tower
+[29abr2025 02:25:48.783] [main/INFO] [supplementaries/]: Finished additional setup in 37 ms
+[29abr2025 02:25:48.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[29abr2025 02:25:48.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[29abr2025 02:25:48.881] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[29abr2025 02:25:48.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[29abr2025 02:25:48.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[29abr2025 02:25:48.946] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[29abr2025 02:25:49.389] [Server thread/INFO] [FTB Teams/]: loaded team data: 7 known players, 8 teams total
+[29abr2025 02:25:49.476] [Server thread/INFO] [spark/]: Starting background profiler...
+[29abr2025 02:25:49.481] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[29abr2025 02:25:49.560] [Server thread/INFO] [Dynmap/]: [Dynmap] Added 50 custom biome mappings
+[29abr2025 02:25:49.562] [Server thread/INFO] [Dynmap/]: [Dynmap] Using ops.txt for access control
+[29abr2025 02:25:49.642] [Server thread/INFO] [minecolonies/]: Dynmap API enabled, registering markers...
+[29abr2025 02:25:49.775] [Server thread/INFO] [Dynmap/]: [Dynmap] Register commands
+[29abr2025 02:25:49.796] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[29abr2025 02:25:49.928] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[29abr2025 02:25:49.928] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[29abr2025 02:25:51.058] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.item.FallingBlockEntity from class com.peeko32213.unusualprehistory.common.entity.msc.projectile.ThrowableFallingBlockEntity
+[29abr2025 02:25:51.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[29abr2025 02:25:51.356] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2025 02:25:51.826] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[29abr2025 02:25:52.198] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 924 ms
+[29abr2025 02:25:52.198] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.141s)! For help, type "help"
+[29abr2025 02:25:52.261] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[29abr2025 02:25:52.263] [Server thread/INFO] [net.uknownymous.overhauledstructures.OverhauledStructures/]: Hey! Epic Dungeons is currently active. Thanks for using it. :)
+[29abr2025 02:25:52.264] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[29abr2025 02:25:52.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] No tasks to continue.
+[29abr2025 02:25:52.290] [Server thread/INFO] [com.frikinjay.morefrogs.MoreFrogsMod/]: HELLO from server starting
+[29abr2025 02:25:52.299] [Server thread/INFO] [com.lostkin.mahoutsukaipatches.MahouTsukaiPatches/]: HELLO from server starting
+[29abr2025 02:25:52.300] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[29abr2025 02:25:52.347] [Server thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[29abr2025 02:25:52.604] [Server thread/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[29abr2025 02:25:59.340] [Server thread/INFO] [Dynmap/]: [Dynmap] Mod Support processing completed
+[29abr2025 02:26:00.926] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 27 shaders.
+[29abr2025 02:26:00.941] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 83 perspectives.
+[29abr2025 02:26:00.946] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 22 lightings.
+[29abr2025 02:26:00.951] [Server thread/INFO] [Dynmap/]: [Dynmap] Starting enter/exit processing
+[29abr2025 02:26:01.025] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Finish marker initialization
+[29abr2025 02:26:01.104] [Server thread/INFO] [Dynmap/]: [Dynmap] Web server started on address 0.0.0.0:8123
+[29abr2025 02:26:01.106] [Server thread/INFO] [Dynmap/]: [Dynmap] version 3.6-899 is enabled - core version 3.6-899
+[29abr2025 02:26:01.106] [Server thread/INFO] [Dynmap/]: [Dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[29abr2025 02:26:01.106] [Server thread/INFO] [Dynmap/]: [Dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[29abr2025 02:26:01.106] [Server thread/INFO] [Dynmap/]: [Dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[29abr2025 02:26:01.106] [Server thread/INFO] [Dynmap/]: [Dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[29abr2025 02:26:01.121] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'twilightforest_twilight_forest'.
+[29abr2025 02:26:01.122] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'mahoutsukai_reality_marble'.
+[29abr2025 02:26:01.122] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'tensura_hell'.
+[29abr2025 02:26:01.122] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM1'.
+[29abr2025 02:26:01.123] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'dimdungeons_build_dimension'.
+[29abr2025 02:26:01.124] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 2 maps of world 'DIM-1'.
+[29abr2025 02:26:01.124] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'world'.
+[29abr2025 02:26:01.125] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'btrultima_imaginary_space'.
+[29abr2025 02:26:01.125] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'tensura_labyrinth'.
+[29abr2025 02:26:01.126] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'btrultima_temptation_world'.
+[29abr2025 02:26:01.126] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'witherstormmod_bowels'.
+[29abr2025 02:26:01.126] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'dimdungeons_dungeon_dimension'.
+[29abr2025 02:26:01.127] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 3 maps of world 'trmysticism_fantasy_world'.
+[29abr2025 02:26:01.173] [Server thread/INFO] [Dynmap/]: [Dynmap] Loaded 987550 pending tile renders for world 'world'
+[29abr2025 02:26:01.183] [Server thread/INFO] [Dynmap/]: [Dynmap] Register events
+[29abr2025 02:26:01.183] [Server thread/INFO] [Dynmap/]: [Dynmap] Enabled
+[29abr2025 02:26:01.191] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Registered 17 jsons with items!
+[29abr2025 02:26:01.302] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 23
+[29abr2025 02:26:01.303] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 33 36
+[29abr2025 02:26:01.303] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[29abr2025 02:26:01.308] [Server thread/INFO] [minecolonies/]: Finished discovering food 118 167
+[29abr2025 02:26:01.313] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 623
+[29abr2025 02:26:01.314] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 306
+[29abr2025 02:26:01.314] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 6
+[29abr2025 02:26:01.314] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[29abr2025 02:26:01.315] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[29abr2025 02:26:01.402] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[29abr2025 02:26:01.403] [Server thread/WARN] [ModernFix/]: Dedicated server took 45.651 seconds to load
+[29abr2025 02:26:02.529] [Dynmap Render Thread/INFO] [Dynmap/]: [Dynmap] Loading resource pack standard
+[29abr2025 02:26:41.282] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player ibaigs is cc3eaaf1-43ed-4404-b21d-672c93558bbe
+[29abr2025 02:26:44.857] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[29abr2025 02:26:44.942] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1116a04d
+[29abr2025 02:26:44.986] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: ibaigs[/192.168.0.13:55138] logged in with entity id 1199 at (-2906.6664367517274, 64.83785918654195, 2293.682517074515)
+[29abr2025 02:26:45.011] [Server thread/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/resources/sounds/AbstractTickableSoundInstance for class ram/talia/hexal/client/sounds/WispCastingSoundInstance in classloader cpw.mods.modlauncher.TransformingClassLoader@19b9f903 on thread Thread[Server thread,8,SERVER]
+[29abr2025 02:26:45.011] [Server thread/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.resources.sounds.AbstractTickableSoundInstance
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:92) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.3.jar%2352!/:6.0.3+6.0.3+master.039e4ea9]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:3297) ~[?:?]
+	at java.lang.Class.getDeclaredFields(Class.java:2371) ~[?:?]
+	at org.embeddedt.modernfix.entity.EntityDataIDSyncHandler.onDatapackSyncEvent(EntityDataIDSyncHandler.java:33) ~[modernfix-forge-5.18.1+mc1.19.2.jar%23320!/:5.18.1+mc1.19.2]
+	at org.embeddedt.modernfix.forge.init.ModernFixForge.onDatapackSync(ModernFixForge.java:78) ~[modernfix-forge-5.18.1+mc1.19.2.jar%23320!/:5.18.1+mc1.19.2]
+	at org.embeddedt.modernfix.forge.init.__ModernFixForge_onDatapackSync_OnDatapackSyncEvent.invoke(.dynamic) ~[modernfix-forge-5.18.1+mc1.19.2.jar%23320!/:5.18.1+mc1.19.2]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2352!/:?]
+	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:173) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:156) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:143) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:75) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:248) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:143) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:880) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:292) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:806) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:654) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:244) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[29abr2025 02:26:45.014] [Server thread/ERROR] [ModernFix/]: Skipping entity ID sync for ram.talia.hexal.common.entities.BaseCastingWisp: java.lang.NoClassDefFoundError: net/minecraft/client/resources/sounds/AbstractTickableSoundInstance
+[29abr2025 02:26:45.017] [Server thread/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/multiplayer/PlayerInfo for invalid dist DEDICATED_SERVER
+[29abr2025 02:26:45.018] [Server thread/ERROR] [ModernFix/]: Skipping entity ID sync for com.faboslav.friendsandfoes.common.entity.PlayerIllusionEntity: java.lang.RuntimeException: Attempted to load class net/minecraft/client/multiplayer/PlayerInfo for invalid dist DEDICATED_SERVER
+[29abr2025 02:26:45.063] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Building books ...
+[29abr2025 02:26:45.065] [Server thread/WARN] [com.klikli_dev.modonomicon.Modonomicon/]: Recipe minecraft:netherite_axe_smithing_does_not_exist (of type minecraft:smithing) not found.
+[29abr2025 02:26:45.065] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Books built.
+[29abr2025 02:26:45.065] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Adding read conditions ...
+[29abr2025 02:26:45.065] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Read conditions added.
+[29abr2025 02:26:45.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ibaigs joined the game
+[29abr2025 02:26:45.264] [Server thread/INFO] [Jade/]: Syncing config to ibaigs (cc3eaaf1-43ed-4404-b21d-672c93558bbe)
+[29abr2025 02:26:45.275] [Server thread/INFO] [structurize/]: New Server UUID 086269a2-7cc1-44f6-9b0e-0962623b4791
+[29abr2025 02:26:46.074] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-2893, y=63, z=2302} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=north,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[29abr2025 02:26:46.074] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-2893, y=64, z=2303} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[29abr2025 02:26:46.075] [Server thread/WARN] [net.minecraft.world.level.chunk.LevelChunk/]: Block entity sophisticatedbackpacks:backpack @ BlockPos{x=-2892, y=64, z=2306} state Block{sophisticatedbackpacks:copper_backpack}[battery=false,facing=east,left_tank=false,right_tank=false,waterlogged=false] invalid for ticking:
+[29abr2025 02:27:55.470] [Server thread/WARN] [net.minecraft.server.level.ServerLevel/]: Tried to add entity tensura:kyoya_tachibana but it was marked as removed already
+[29abr2025 02:28:25.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [ibaigs: Reloading!]
+[29abr2025 02:28:25.458] [Server thread/INFO] [supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 2 ms
+[29abr2025 02:28:25.462] [Server thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[29abr2025 02:28:25.544] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [#aether:is_aether (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: #aether:is_aether (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.545] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [blue_skies:unorthodox_valley (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:shaded_woodlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_dunes (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:sunset_maple_forest (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:rising_creek (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crystal_roughs (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:searing_grassland (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:crescent_orchard (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: blue_skies:unorthodox_valley (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:shaded_woodlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_dunes (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_dunes_spikes (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:sunset_maple_forest (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:rising_creek (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crystal_roughs (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:searing_grassland (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:crescent_orchard (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.548] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [the_bumblezone:crystal_canyon (from totw_modded-forge-1.19.2-1.0.5.jar), the_bumblezone:pollinated_fields (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: the_bumblezone:crystal_canyon (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	the_bumblezone:pollinated_fields (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.555] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:infernal_venus_barrens (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:infernal_venus_barrens (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.557] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:lunar_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:lunar_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.560] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)] as it is missing following references: minecraft:spruce_forest (from legendarymonsters-1.0.7 MC 1.19.2.jar)
+[29abr2025 02:28:25.563] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [rats:ratlantis (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: rats:ratlantis (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.567] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [blue_skies:calming_skies (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:brightlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:slushlands (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:frostbitten_forest (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:snow_covered_pines (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:brisk_meadow (from totw_modded-forge-1.19.2-1.0.5.jar), blue_skies:polar_highland (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: blue_skies:calming_skies (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:brightlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:slushlands (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:frostbitten_forest (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:frostbitten_forest_clearing (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:snow_covered_pines (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:brisk_meadow (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	blue_skies:polar_highland (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.571] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:martian_canyon_creek (from totw_modded-forge-1.19.2-1.0.5.jar), ad_astra:martian_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:martian_canyon_creek (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	ad_astra:martian_wastelands (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.576] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.19.2-1.0.5.jar), ad_astra:glacio_ice_peaks (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:glacio_snowy_barrens (from totw_modded-forge-1.19.2-1.0.5.jar), 
+	ad_astra:glacio_ice_peaks (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.577] [Worker-ResourceReload-10/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [ad_astra:mercury_deltas (from totw_modded-forge-1.19.2-1.0.5.jar)] as it is missing following references: ad_astra:mercury_deltas (from totw_modded-forge-1.19.2-1.0.5.jar)
+[29abr2025 02:28:25.596] [Worker-ResourceReload-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [create:void_steel_bars (from createutilities-0.3.0+1.19.2.jar)] as it is missing following references: create:void_steel_bars (from createutilities-0.3.0+1.19.2.jar)
+[29abr2025 02:28:25.596] [Worker-ResourceReload-9/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag [mekanism:mekasuit_helmet (from creategoggles-1.19.2-0.5.5.g-[FORGE].jar)] as it is missing following references: mekanism:mekasuit_helmet (from creategoggles-1.19.2-0.5.5.g-[FORGE].jar)
+[29abr2025 02:28:25.904] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:nickel_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:25.905] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe unusualprehistory:cultivator/talapanas_egg_from_cultivator: com.google.gson.JsonSyntaxException: Unknown item 'unusualprehistory:talapanas_egg'
+[29abr2025 02:28:25.906] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.912] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[29abr2025 02:28:25.913] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_lead as it's serializer returned null
+[29abr2025 02:28:25.916] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/electrum as it's serializer returned null
+[29abr2025 02:28:25.916] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ender_hammer: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ender_hammer'
+[29abr2025 02:28:25.918] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:tin_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:25.920] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/wtbwcharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:28:25.921] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/charcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:28:25.922] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/ether_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:ether_sconce'
+[29abr2025 02:28:25.923] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/frosted as it's serializer returned null
+[29abr2025 02:28:25.923] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[29abr2025 02:28:25.924] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/anglers_lure: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.928] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_log as it's serializer returned null
+[29abr2025 02:28:25.929] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/hunger as it's serializer returned null
+[29abr2025 02:28:25.929] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.932] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/zephyrs_courage: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.933] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/soul_stained_steel_knife as it's serializer returned null
+[29abr2025 02:28:25.936] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.937] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/morecharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:28:25.937] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:lead_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:25.938] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.942] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:ancient_dripstone_brick_stairs_left: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:ancient_dripstone_brick'
+[29abr2025 02:28:25.945] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:create/crushing/crush_rare_earths_block: com.google.gson.JsonSyntaxException: Unknown item 'malum:block_of_aurum'
+[29abr2025 02:28:25.945] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_uranium as it's serializer returned null
+[29abr2025 02:28:25.946] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/iridescent_ether_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:iridescent_ether_sconce'
+[29abr2025 02:28:25.948] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:aluminum_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.950] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_osmium as it's serializer returned null
+[29abr2025 02:28:25.950] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe legendary_monsters:dinosaur_bone_meal: com.google.gson.JsonSyntaxException: Unknown item 'legendary_monsters:dinosaur_bone_meal'
+[29abr2025 02:28:25.952] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_nickel as it's serializer returned null
+[29abr2025 02:28:25.953] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/ifrits_embrace: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.954] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/sbmcharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:28:25.954] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/gaian_bulwark: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.955] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe creategoggles:module_goggle_unit: com.google.gson.JsonSyntaxException: Unknown item 'mekanism:alloy_reinforced'
+[29abr2025 02:28:25.955] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:simple_diving_gear/diving_helmet as it's serializer returned null
+[29abr2025 02:28:25.957] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_nickel as it's serializer returned null
+[29abr2025 02:28:25.957] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.958] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/blindness as it's serializer returned null
+[29abr2025 02:28:25.959] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.962] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:uranium_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:25.964] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:nickel_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.966] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:tin_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.967] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/aethers_charm: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.967] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:osmium_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.969] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_wood as it's serializer returned null
+[29abr2025 02:28:25.970] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom create:crushing recipe (malum:create/crushing/crush_rare_earths) has more item outputs (8) than supported (7).
+[29abr2025 02:28:25.970] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/poison as it's serializer returned null
+[29abr2025 02:28:25.972] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:malum/blazing_sconce: com.google.gson.JsonSyntaxException: Unknown item 'malum:blazing_sconce'
+[29abr2025 02:28:25.972] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe betterwithminecolonies:blocks_of_things/vanillatweakscharcoal_to_coal_blocks as it's serializer returned null
+[29abr2025 02:28:25.978] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:uranium_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.980] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:lead_from_node_blasting as it's serializer returned null
+[29abr2025 02:28:25.984] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/brass as it's serializer returned null
+[29abr2025 02:28:25.984] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/earthen_might: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.987] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.990] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_trapdoor as it's serializer returned null
+[29abr2025 02:28:25.990] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_osmium as it's serializer returned null
+[29abr2025 02:28:25.991] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/resistance as it's serializer returned null
+[29abr2025 02:28:25.992] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/miners_rage: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:25.995] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_uranium as it's serializer returned null
+[29abr2025 02:28:25.995] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:osmium_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:25.998] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:25.999] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[29abr2025 02:28:26.000] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:malum/spirit_crucible/repair/common/zinc as it's serializer returned null
+[29abr2025 02:28:26.001] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:26.003] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/poseidons_grasp: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:26.004] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_tin as it's serializer returned null
+[29abr2025 02:28:26.005] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_tin as it's serializer returned null
+[29abr2025 02:28:26.008] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:aluminum_from_node_smelting as it's serializer returned null
+[29abr2025 02:28:26.011] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe malum:jeed/gluttony: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'jeed:effect_provider'
+[29abr2025 02:28:26.012] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/regeneration as it's serializer returned null
+[29abr2025 02:28:26.014] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:impetus_creation_aluminum as it's serializer returned null
+[29abr2025 02:28:26.014] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/slowness as it's serializer returned null
+[29abr2025 02:28:26.014] [Server thread/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[29abr2025 02:28:26.014] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe hexcasting:compat/farmersdelight/cutting/akashic_door as it's serializer returned null
+[29abr2025 02:28:26.017] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_aluminum as it's serializer returned null
+[29abr2025 02:28:26.017] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe malum:node_focusing_lead as it's serializer returned null
+[29abr2025 02:28:26.017] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe twilightforest:jeed/fire_resistance as it's serializer returned null
+[29abr2025 02:28:26.021] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 50 recipes
+[29abr2025 02:28:26.049] [Server thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_slave: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_slave'
+[29abr2025 02:28:26.062] [Server thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_extension: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_extension'
+[29abr2025 02:28:26.131] [Server thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_grid: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_grid'
+[29abr2025 02:28:26.143] [Server thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table minecolonies_compatibility:blocks/citizen_inventory: com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'minecolonies_compatibility:citizen_inventory'
+[29abr2025 02:28:26.189] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function wshelp:summon
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected double at position 55: ...ositioned <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Expected double at position 55: ...ositioned <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23386!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[29abr2025 02:28:26.203] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/impetus_creation_zinc: Missing advancement, expected to find a JsonObject
+[29abr2025 02:28:26.205] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/impetus_creation_silver: Missing advancement, expected to find a JsonObject
+[29abr2025 02:28:26.210] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/node_focusing_silver: Missing advancement, expected to find a JsonObject
+[29abr2025 02:28:26.217] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/silver_from_node_blasting: Advancement criteria cannot be empty
+[29abr2025 02:28:26.218] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/zinc_from_node_smelting: Advancement criteria cannot be empty
+[29abr2025 02:28:26.222] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/node_focusing_zinc: Missing advancement, expected to find a JsonObject
+[29abr2025 02:28:26.235] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/silver_from_node_smelting: Advancement criteria cannot be empty
+[29abr2025 02:28:26.236] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement malum:recipes/zinc_from_node_blasting: Advancement criteria cannot be empty
+[29abr2025 02:28:26.270] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4403 advancements
+[29abr2025 02:28:26.271] [Server thread/INFO] [twilightforest/]: Loaded 9 Stalactite configs!
+[29abr2025 02:28:26.279] [Server thread/INFO] [supplementaries/]: Loaded  8 flute songs
+[29abr2025 02:28:26.295] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Data loader for unusualprehistory/analyzer loaded 14 jsons
+[29abr2025 02:28:26.295] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.LootFruitJsonManager/]: Data loader for unusualprehistory/trades loaded 4 jsons
+[29abr2025 02:28:26.296] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.EncyclopediaJsonManager/]: Data loader for unusualprehistory/encyclopedia loaded 47 jsons
+[29abr2025 02:28:26.300] [Server thread/INFO] [com.sammy.malum.MalumMod/]: Entity with registry name: alexsmobs:spectre already has spirit data associated with it. Overwriting.
+[29abr2025 02:28:26.301] [Server thread/INFO] [minecolonies/]: Beginning load of custom recipes for colony workers
+[29abr2025 02:28:26.302] [Server thread/INFO] [minecolonies/]: Loaded 130 recipes for 14 crafters
+[29abr2025 02:28:26.302] [Server thread/INFO] [minecolonies/]: Beginning load of research for University.
+[29abr2025 02:28:26.329] [Server thread/INFO] [minecolonies/]: Loaded 201 recipes for 4 research branches
+[29abr2025 02:28:26.331] [Server thread/INFO] [minecolonies/]: Loading quests from data
+[29abr2025 02:28:26.332] [Server thread/INFO] [minecolonies/]: Finished loading quests from data
+[29abr2025 02:28:26.334] [Server thread/WARN] [minecolonies/]: Read 1362 items with their nbt keys for compatibility.
+[29abr2025 02:28:26.334] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: kiln/materials
+[29abr2025 02:28:26.334] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for kiln/materials loaded 7 jsons
+[29abr2025 02:28:26.335] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: gear/ep
+[29abr2025 02:28:26.335] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for gear/ep loaded 233 jsons
+[29abr2025 02:28:26.336] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: entity/ep
+[29abr2025 02:28:26.336] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for entity/ep loaded 151 jsons
+[29abr2025 02:28:26.336] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: slotting_element_combination
+[29abr2025 02:28:26.337] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for slotting_element_combination loaded 56 jsons
+[29abr2025 02:28:26.337] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Beginning loading of data for data loader: otherworlder_spawning
+[29abr2025 02:28:26.337] [Server thread/INFO] [com.github.manasmods.manascore.api.datapack.CodecJsonDataManager/]: Data loader for otherworlder_spawning loaded 8 jsons
+[29abr2025 02:28:26.340] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: totw_modded:has_structure/aether_tower, totw_modded:has_structure/everbright_tower, totw_modded:has_structure/everdawn_tower, totw_modded:has_structure/glacio_tower, totw_modded:has_structure/mars_tower, totw_modded:has_structure/mercury_tower, totw_modded:has_structure/moon_tower, totw_modded:has_structure/ratlantis_tower, totw_modded:has_structure/venus_tower
+[29abr2025 02:28:26.425] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@1116a04d
+[29abr2025 02:28:26.439] [Server thread/INFO] [com.peeko32213.unusualprehistory.common.data.AnalyzerRecipeJsonManager/]: Registered 17 jsons with items!
+[29abr2025 02:28:26.441] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Building books ...
+[29abr2025 02:28:26.442] [Server thread/WARN] [com.klikli_dev.modonomicon.Modonomicon/]: Recipe minecraft:netherite_axe_smithing_does_not_exist (of type minecraft:smithing) not found.
+[29abr2025 02:28:26.442] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Books built.
+[29abr2025 02:28:26.442] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Adding read conditions ...
+[29abr2025 02:28:26.444] [Server thread/INFO] [com.klikli_dev.modonomicon.Modonomicon/]: Read conditions added.
+[29abr2025 02:28:26.495] [Server thread/INFO] [minecolonies/]: Finished discovering saplings 23
+[29abr2025 02:28:26.495] [Server thread/INFO] [minecolonies/]: Finished discovering Ores 33 36
+[29abr2025 02:28:26.496] [Server thread/INFO] [minecolonies/]: Finished discovering plantables 19
+[29abr2025 02:28:26.505] [Server thread/INFO] [minecolonies/]: Finished discovering food 118 167
+[29abr2025 02:28:26.507] [Server thread/INFO] [minecolonies/]: Finished discovering fuel 623
+[29abr2025 02:28:26.508] [Server thread/INFO] [minecolonies/]: Finished discovering compostables 302
+[29abr2025 02:28:26.508] [Server thread/INFO] [minecolonies/]: Finished discovering lucky oreBlocks 6
+[29abr2025 02:28:26.508] [Server thread/INFO] [minecolonies/]: Finished discovering recruitment costs
+[29abr2025 02:28:26.510] [Server thread/INFO] [minecolonies/]: Finished discovering diseases
+[29abr2025 02:28:36.593] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[29abr2025 02:28:36.594] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[29abr2025 02:28:36.595] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[29abr2025 02:28:36.599] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[29abr2025 02:28:36.599] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[29abr2025 02:28:36.600] [Server thread/INFO] [incontrol/]: Reading rules from special.json
+[29abr2025 02:28:36.600] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[29abr2025 02:28:36.600] [Server thread/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:28:36.601] [Server thread/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:28:36.601] [Server thread/ERROR] [incontrol/]: Invalid command 'dimension' for spawner rule!
+[29abr2025 02:29:07.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[29abr2025 02:29:07.189] [Server thread/INFO] [Dynmap/]: [Dynmap] Unloaded 11 components.
+[29abr2025 02:29:07.189] [Server thread/INFO] [Dynmap/]: [Dynmap] Stopping map renderer...
+[29abr2025 02:29:07.215] [Server thread/INFO] [Dynmap/]: [Dynmap] Saved 989657 pending tile renders in world 'world'
+[29abr2025 02:29:12.276] [Server thread/INFO] [Dynmap/]: [Dynmap] Disabled
+[29abr2025 02:29:12.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[29abr2025 02:29:12.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[29abr2025 02:29:12.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[29abr2025 02:29:12.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[29abr2025 02:29:12.652] [Server thread/WARN] [minecolonies/]: Writing Recipe Manager: 0 recipes!
+[29abr2025 02:29:12.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/tensura:hell
+[29abr2025 02:29:12.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdungeons:dungeon_dimension
+[29abr2025 02:29:12.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/trmysticism:fantasy_world
+[29abr2025 02:29:12.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[29abr2025 02:29:12.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/dimdungeons:build_dimension
+[29abr2025 02:29:12.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/btrultima:imaginary_space
+[29abr2025 02:29:12.731] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[29abr2025 02:29:12.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/twilightforest:twilight_forest
+[29abr2025 02:29:12.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/mahoutsukai:reality_marble
+[29abr2025 02:29:12.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/btrultima:temptation_world
+[29abr2025 02:29:12.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[29abr2025 02:29:12.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/tensura:labyrinth
+[29abr2025 02:29:12.803] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[29abr2025 02:29:12.804] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (hell): All chunks are saved
+[29abr2025 02:29:12.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dungeon_dimension): All chunks are saved
+[29abr2025 02:29:12.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (fantasy_world): All chunks are saved
+[29abr2025 02:29:12.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[29abr2025 02:29:12.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (build_dimension): All chunks are saved
+[29abr2025 02:29:12.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (imaginary_space): All chunks are saved
+[29abr2025 02:29:12.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[29abr2025 02:29:12.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[29abr2025 02:29:12.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (reality_marble): All chunks are saved
+[29abr2025 02:29:12.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (temptation_world): All chunks are saved
+[29abr2025 02:29:12.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[29abr2025 02:29:12.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (labyrinth): All chunks are saved
+[29abr2025 02:29:12.811] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[29abr2025 02:29:12.879] [Server thread/INFO] [FTB Chunks/]: Shutting down map thread
